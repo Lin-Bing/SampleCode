@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53EEDD321167F9600F87E2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEDD221167F9600F87E2D /* AppDelegate.m */; };
+		A53EEDD921167F9600F87E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53EEDD721167F9600F87E2D /* Main.storyboard */; };
+		A53EEDDB21167F9600F87E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53EEDDA21167F9600F87E2D /* Assets.xcassets */; };
+		A53EEDDE21167F9600F87E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53EEDDC21167F9600F87E2D /* LaunchScreen.storyboard */; };
+		A53EEDE121167F9600F87E2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEDE021167F9600F87E2D /* main.m */; };
+		A53EEDEB21167F9600F87E2D /* FYTimerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEDEA21167F9600F87E2D /* FYTimerDemoTests.m */; };
+		A53EEDF621167F9600F87E2D /* FYTimerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEDF521167F9600F87E2D /* FYTimerDemoUITests.m */; };
+		A53EEE05211680B600F87E2D /* FYMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEE04211680B600F87E2D /* FYMainTableViewController.m */; };
+		A53EEE0D211683F800F87E2D /* FYLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEE0B211683F800F87E2D /* FYLeakViewController.m */; };
+		A53EEE102116841E00F87E2D /* FYLeakView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEE0F2116841E00F87E2D /* FYLeakView.m */; };
+		A53EEE132116919100F87E2D /* FYNormalView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEE122116919100F87E2D /* FYNormalView.m */; };
+		A53EEE16211691A100F87E2D /* FYNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEE15211691A100F87E2D /* FYNormalViewController.m */; };
+		A53EEE1A2116949C00F87E2D /* FYSolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEE192116949C00F87E2D /* FYSolutionViewController.m */; };
+		A53EEE1D211694AA00F87E2D /* FYSolutionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEE1C211694AA00F87E2D /* FYSolutionView.m */; };
+		A53EEE20211698FA00F87E2D /* NSTimer+FY.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EEE1F211698FA00F87E2D /* NSTimer+FY.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53EEDE721167F9600F87E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53EEDC621167F9500F87E2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53EEDCD21167F9600F87E2D;
+			remoteInfo = FYTimerDemo;
+		};
+		A53EEDF221167F9600F87E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53EEDC621167F9500F87E2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53EEDCD21167F9600F87E2D;
+			remoteInfo = FYTimerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53EEDCE21167F9600F87E2D /* FYTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53EEDD121167F9600F87E2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A53EEDD221167F9600F87E2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A53EEDD821167F9600F87E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A53EEDDA21167F9600F87E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53EEDDD21167F9600F87E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A53EEDDF21167F9600F87E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53EEDE021167F9600F87E2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53EEDE621167F9600F87E2D /* FYTimerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYTimerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53EEDEA21167F9600F87E2D /* FYTimerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYTimerDemoTests.m; sourceTree = "<group>"; };
+		A53EEDEC21167F9600F87E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53EEDF121167F9600F87E2D /* FYTimerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYTimerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53EEDF521167F9600F87E2D /* FYTimerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYTimerDemoUITests.m; sourceTree = "<group>"; };
+		A53EEDF721167F9600F87E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53EEE03211680B600F87E2D /* FYMainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYMainTableViewController.h; sourceTree = "<group>"; };
+		A53EEE04211680B600F87E2D /* FYMainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYMainTableViewController.m; sourceTree = "<group>"; };
+		A53EEE0A211683F800F87E2D /* FYLeakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLeakViewController.h; sourceTree = "<group>"; };
+		A53EEE0B211683F800F87E2D /* FYLeakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLeakViewController.m; sourceTree = "<group>"; };
+		A53EEE0E2116841E00F87E2D /* FYLeakView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYLeakView.h; sourceTree = "<group>"; };
+		A53EEE0F2116841E00F87E2D /* FYLeakView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYLeakView.m; sourceTree = "<group>"; };
+		A53EEE112116919100F87E2D /* FYNormalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYNormalView.h; sourceTree = "<group>"; };
+		A53EEE122116919100F87E2D /* FYNormalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYNormalView.m; sourceTree = "<group>"; };
+		A53EEE14211691A100F87E2D /* FYNormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYNormalViewController.h; sourceTree = "<group>"; };
+		A53EEE15211691A100F87E2D /* FYNormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYNormalViewController.m; sourceTree = "<group>"; };
+		A53EEE182116949C00F87E2D /* FYSolutionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYSolutionViewController.h; sourceTree = "<group>"; };
+		A53EEE192116949C00F87E2D /* FYSolutionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYSolutionViewController.m; sourceTree = "<group>"; };
+		A53EEE1B211694AA00F87E2D /* FYSolutionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYSolutionView.h; sourceTree = "<group>"; };
+		A53EEE1C211694AA00F87E2D /* FYSolutionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYSolutionView.m; sourceTree = "<group>"; };
+		A53EEE1E211698FA00F87E2D /* NSTimer+FY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+FY.h"; sourceTree = "<group>"; };
+		A53EEE1F211698FA00F87E2D /* NSTimer+FY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+FY.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53EEDCB21167F9600F87E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53EEDE321167F9600F87E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53EEDEE21167F9600F87E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53EEDC521167F9500F87E2D = {
+			isa = PBXGroup;
+			children = (
+				A53EEDD021167F9600F87E2D /* FYTimerDemo */,
+				A53EEDE921167F9600F87E2D /* FYTimerDemoTests */,
+				A53EEDF421167F9600F87E2D /* FYTimerDemoUITests */,
+				A53EEDCF21167F9600F87E2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53EEDCF21167F9600F87E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53EEDCE21167F9600F87E2D /* FYTimerDemo.app */,
+				A53EEDE621167F9600F87E2D /* FYTimerDemoTests.xctest */,
+				A53EEDF121167F9600F87E2D /* FYTimerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53EEDD021167F9600F87E2D /* FYTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A53EEE09211683F800F87E2D /* Leak */,
+				A53EEE0C211683F800F87E2D /* Normal */,
+				A53EEE172116947A00F87E2D /* Solution */,
+				A53EEDD121167F9600F87E2D /* AppDelegate.h */,
+				A53EEDD221167F9600F87E2D /* AppDelegate.m */,
+				A53EEE03211680B600F87E2D /* FYMainTableViewController.h */,
+				A53EEE04211680B600F87E2D /* FYMainTableViewController.m */,
+				A53EEDD721167F9600F87E2D /* Main.storyboard */,
+				A53EEDDA21167F9600F87E2D /* Assets.xcassets */,
+				A53EEDDC21167F9600F87E2D /* LaunchScreen.storyboard */,
+				A53EEDDF21167F9600F87E2D /* Info.plist */,
+				A53EEDE021167F9600F87E2D /* main.m */,
+			);
+			path = FYTimerDemo;
+			sourceTree = "<group>";
+		};
+		A53EEDE921167F9600F87E2D /* FYTimerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53EEDEA21167F9600F87E2D /* FYTimerDemoTests.m */,
+				A53EEDEC21167F9600F87E2D /* Info.plist */,
+			);
+			path = FYTimerDemoTests;
+			sourceTree = "<group>";
+		};
+		A53EEDF421167F9600F87E2D /* FYTimerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A53EEDF521167F9600F87E2D /* FYTimerDemoUITests.m */,
+				A53EEDF721167F9600F87E2D /* Info.plist */,
+			);
+			path = FYTimerDemoUITests;
+			sourceTree = "<group>";
+		};
+		A53EEE09211683F800F87E2D /* Leak */ = {
+			isa = PBXGroup;
+			children = (
+				A53EEE0A211683F800F87E2D /* FYLeakViewController.h */,
+				A53EEE0B211683F800F87E2D /* FYLeakViewController.m */,
+				A53EEE0E2116841E00F87E2D /* FYLeakView.h */,
+				A53EEE0F2116841E00F87E2D /* FYLeakView.m */,
+			);
+			path = Leak;
+			sourceTree = "<group>";
+		};
+		A53EEE0C211683F800F87E2D /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				A53EEE14211691A100F87E2D /* FYNormalViewController.h */,
+				A53EEE15211691A100F87E2D /* FYNormalViewController.m */,
+				A53EEE112116919100F87E2D /* FYNormalView.h */,
+				A53EEE122116919100F87E2D /* FYNormalView.m */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		A53EEE172116947A00F87E2D /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				A53EEE182116949C00F87E2D /* FYSolutionViewController.h */,
+				A53EEE192116949C00F87E2D /* FYSolutionViewController.m */,
+				A53EEE1B211694AA00F87E2D /* FYSolutionView.h */,
+				A53EEE1C211694AA00F87E2D /* FYSolutionView.m */,
+				A53EEE1E211698FA00F87E2D /* NSTimer+FY.h */,
+				A53EEE1F211698FA00F87E2D /* NSTimer+FY.m */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53EEDCD21167F9600F87E2D /* FYTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53EEDFA21167F9600F87E2D /* Build configuration list for PBXNativeTarget "FYTimerDemo" */;
+			buildPhases = (
+				A53EEDCA21167F9600F87E2D /* Sources */,
+				A53EEDCB21167F9600F87E2D /* Frameworks */,
+				A53EEDCC21167F9600F87E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYTimerDemo;
+			productName = FYTimerDemo;
+			productReference = A53EEDCE21167F9600F87E2D /* FYTimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53EEDE521167F9600F87E2D /* FYTimerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53EEDFD21167F9600F87E2D /* Build configuration list for PBXNativeTarget "FYTimerDemoTests" */;
+			buildPhases = (
+				A53EEDE221167F9600F87E2D /* Sources */,
+				A53EEDE321167F9600F87E2D /* Frameworks */,
+				A53EEDE421167F9600F87E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53EEDE821167F9600F87E2D /* PBXTargetDependency */,
+			);
+			name = FYTimerDemoTests;
+			productName = FYTimerDemoTests;
+			productReference = A53EEDE621167F9600F87E2D /* FYTimerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A53EEDF021167F9600F87E2D /* FYTimerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53EEE0021167F9600F87E2D /* Build configuration list for PBXNativeTarget "FYTimerDemoUITests" */;
+			buildPhases = (
+				A53EEDED21167F9600F87E2D /* Sources */,
+				A53EEDEE21167F9600F87E2D /* Frameworks */,
+				A53EEDEF21167F9600F87E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53EEDF321167F9600F87E2D /* PBXTargetDependency */,
+			);
+			name = FYTimerDemoUITests;
+			productName = FYTimerDemoUITests;
+			productReference = A53EEDF121167F9600F87E2D /* FYTimerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53EEDC621167F9500F87E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = linbing;
+				TargetAttributes = {
+					A53EEDCD21167F9600F87E2D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A53EEDE521167F9600F87E2D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A53EEDCD21167F9600F87E2D;
+					};
+					A53EEDF021167F9600F87E2D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A53EEDCD21167F9600F87E2D;
+					};
+				};
+			};
+			buildConfigurationList = A53EEDC921167F9500F87E2D /* Build configuration list for PBXProject "FYTimerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53EEDC521167F9500F87E2D;
+			productRefGroup = A53EEDCF21167F9600F87E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53EEDCD21167F9600F87E2D /* FYTimerDemo */,
+				A53EEDE521167F9600F87E2D /* FYTimerDemoTests */,
+				A53EEDF021167F9600F87E2D /* FYTimerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53EEDCC21167F9600F87E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53EEDDE21167F9600F87E2D /* LaunchScreen.storyboard in Resources */,
+				A53EEDDB21167F9600F87E2D /* Assets.xcassets in Resources */,
+				A53EEDD921167F9600F87E2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53EEDE421167F9600F87E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53EEDEF21167F9600F87E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53EEDCA21167F9600F87E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53EEE1A2116949C00F87E2D /* FYSolutionViewController.m in Sources */,
+				A53EEE20211698FA00F87E2D /* NSTimer+FY.m in Sources */,
+				A53EEE16211691A100F87E2D /* FYNormalViewController.m in Sources */,
+				A53EEE102116841E00F87E2D /* FYLeakView.m in Sources */,
+				A53EEE0D211683F800F87E2D /* FYLeakViewController.m in Sources */,
+				A53EEDE121167F9600F87E2D /* main.m in Sources */,
+				A53EEDD321167F9600F87E2D /* AppDelegate.m in Sources */,
+				A53EEE132116919100F87E2D /* FYNormalView.m in Sources */,
+				A53EEE1D211694AA00F87E2D /* FYSolutionView.m in Sources */,
+				A53EEE05211680B600F87E2D /* FYMainTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53EEDE221167F9600F87E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53EEDEB21167F9600F87E2D /* FYTimerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53EEDED21167F9600F87E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53EEDF621167F9600F87E2D /* FYTimerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53EEDE821167F9600F87E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53EEDCD21167F9600F87E2D /* FYTimerDemo */;
+			targetProxy = A53EEDE721167F9600F87E2D /* PBXContainerItemProxy */;
+		};
+		A53EEDF321167F9600F87E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53EEDCD21167F9600F87E2D /* FYTimerDemo */;
+			targetProxy = A53EEDF221167F9600F87E2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A53EEDD721167F9600F87E2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53EEDD821167F9600F87E2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A53EEDDC21167F9600F87E2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53EEDDD21167F9600F87E2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53EEDF821167F9600F87E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A53EEDF921167F9600F87E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53EEDFB21167F9600F87E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX264TM5K8;
+				INFOPLIST_FILE = FYTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linbing.timer.FYTimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A53EEDFC21167F9600F87E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX264TM5K8;
+				INFOPLIST_FILE = FYTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linbing.timer.FYTimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A53EEDFE21167F9600F87E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX264TM5K8;
+				INFOPLIST_FILE = FYTimerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linbing.timer.FYTimerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYTimerDemo.app/FYTimerDemo";
+			};
+			name = Debug;
+		};
+		A53EEDFF21167F9600F87E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX264TM5K8;
+				INFOPLIST_FILE = FYTimerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linbing.timer.FYTimerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYTimerDemo.app/FYTimerDemo";
+			};
+			name = Release;
+		};
+		A53EEE0121167F9600F87E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX264TM5K8;
+				INFOPLIST_FILE = FYTimerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linbing.timer.FYTimerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYTimerDemo;
+			};
+			name = Debug;
+		};
+		A53EEE0221167F9600F87E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX264TM5K8;
+				INFOPLIST_FILE = FYTimerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linbing.timer.FYTimerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYTimerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53EEDC921167F9500F87E2D /* Build configuration list for PBXProject "FYTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53EEDF821167F9600F87E2D /* Debug */,
+				A53EEDF921167F9600F87E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53EEDFA21167F9600F87E2D /* Build configuration list for PBXNativeTarget "FYTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53EEDFB21167F9600F87E2D /* Debug */,
+				A53EEDFC21167F9600F87E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53EEDFD21167F9600F87E2D /* Build configuration list for PBXNativeTarget "FYTimerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53EEDFE21167F9600F87E2D /* Debug */,
+				A53EEDFF21167F9600F87E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53EEE0021167F9600F87E2D /* Build configuration list for PBXNativeTarget "FYTimerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53EEE0121167F9600F87E2D /* Debug */,
+				A53EEE0221167F9600F87E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53EEDC621167F9500F87E2D /* Project object */;
+}
