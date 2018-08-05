@@ -21,14 +21,11 @@
 
 
 @interface FYVcModel : NSObject
-
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, strong) Class VcClass;
-
 @end
 
 @implementation FYVcModel
-
 @end
 
 
