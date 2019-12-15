@@ -1,15 +1,10 @@
+# OSX
+#
 .DS_Store
 
 # Xcode
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
-## Build generated
 build/
-DerivedData
-iOSInjectionProject
-
-## Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -19,10 +14,42 @@ iOSInjectionProject
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
-
-## Other
 *.xccheckout
 *.moved-aside
+DerivedData
+*.hmap
+*.ipa
 *.xcuserstate
-*.xcscmblueprint
-*.mobileprovision
+project.xcworkspace
+/ios
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# Bundle artifact
+*.jsbundle
+.vscode
+bundle/
+js2/
+
+
+/js/typings/
+/js/typings.json
+/js/.eslintrc.js
+/js/.prettierrc
