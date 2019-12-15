@@ -91,7 +91,7 @@
                             runLoopMode:(NSRunLoopMode)mode
                                  repeats:(BOOL)yesOrNo
 {
-    NSTimer *timer = [self scheduledTimerWithTimeInterval:inTimeInterval target:self selector:@selector(p_timerAction:) userInfo:block repeats:yesOrNo];
+    NSTimer *timer = [self timerWithTimeInterval:inTimeInterval target:self selector:@selector(p_timerAction:) userInfo:block repeats:yesOrNo];
     [[NSRunLoop mainRunLoop] addTimer:timer forMode:mode];
     return timer;
 }
